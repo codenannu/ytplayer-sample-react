@@ -1,0 +1,36 @@
+{
+  "name": "ytplayer-react",
+  "private": true,
+  "version": "1.0.0",
+  "description": "YouTube Player sample — React + Vite UI (URL/ID playground)",
+  "homepage": "https://github.com/codenannu/ytplayer-sample-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenannu/ytplayer-sample-react.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@codenkay/video-ytplayer-core": "^1.0.0",
+    "@codenkay/video-ytplayer-react": "^1.0.0",
+    "@codenkay/video-ytplayer-ui": "^1.0.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "5.8.3",
+    "vite": "^6.4.6"
+  }
+}
